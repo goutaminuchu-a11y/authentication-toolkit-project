@@ -165,6 +165,7 @@ export type Database = {
         }
         Returns: boolean
       }
+      security_posture: { Args: never; Returns: Json }
     }
     Enums: {
       app_role: "USER" | "ADMIN"
